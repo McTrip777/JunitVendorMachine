@@ -46,8 +46,8 @@ public class Wallet {
     public float getAllCredit(){
         return this.storedCredit;
     }
-
-    public String getBrand(String band) {
+    // Removed String brand from get parameters
+    public String getBrand() {
         return this.brand;
     }
 
